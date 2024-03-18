@@ -1,0 +1,107 @@
+// Here you can add other style
+.body {
+	background-image: url(/src/assets/images/osespwall2.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2); /* Ajuste o último valor para controlar a opacidade (0 = transparente, 1 = opaco) */
+  }
+.header {
+	background-color: #363635;
+	border-color: #000000;
+}
+.header-divider {
+	background-color: #363635;
+	border-color: #000000;
+}
+.footer {
+	background: #363635;
+	color: rgb(231, 225, 225);
+	border-color: #000000;
+	z-index: 1;
+}
+.footer a {
+	color: rgb(231, 225, 225);
+}
+
+.container-fluid li {
+	color: rgb(231, 225, 225);
+}
+
+.container-fluid a {
+	color: rgb(231, 225, 225);
+}
+
+.wrapper d-flex flex-column min-vh-100 {
+	background-color: rgb(56, 31, 12);
+}
+
+.breadcrumb-item {
+	color: rgb(231, 225, 225);
+}
+.sidebar {
+	background: rgb(70, 45, 27);
+}
+.poema{
+	color: rgb(231, 225, 225);
+}
+
+.login{
+	background-image: url(/src/assets/images/osespwall.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.login::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+.login-extra{
+	background-image: url(/src/assets/images/logo-osesp2.jpg);
+	color: rgb(231, 225, 225);
+	background-position: center center;
+	background-size: cover;
+}
+.btn-login {
+	background-color: rgb(70, 45, 27);
+	color: rgb(231, 225, 225);
+	border: 2px solid black;
+}
+.btn-login:hover {
+	background-color: #a37960;
+	color: black;
+	border: 2px solid black;
+}
+.btn-cor{
+	color: rgb(231, 225, 225);
+}
+.btn-icon{
+	color: rgb(231, 225, 225);
+}
+
+.accordion-button {
+	background-color: rgb(109, 60, 22);
+	color: rgb(231, 225, 225);
+	border: 2px solid rgb(53, 37, 23);
+}
+.btn-delete{
+	background-color: rgb(184, 39, 39);
+	color: white;
+	margin-right: 5px;
+}
+.btn-att:hover{
+background-color: rgb(80, 154, 204);
+color: #000000;
+}
